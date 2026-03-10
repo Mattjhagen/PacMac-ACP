@@ -77,6 +77,82 @@ const Home = () => {
                 </div>
             </section>
 
+            {/* PackieAI Coming Soon */}
+            <section id="packie-ai" className="container py-20 relative z-10 scroll-mt-24">
+                <div className="glass-card bg-gradient-to-r from-bg-dark to-bg-darker border-secondary/30 relative overflow-hidden">
+                    <div className="absolute top-0 right-0 w-64 h-64 bg-secondary/10 blur-[80px] rounded-full point-events-none"></div>
+                    <div className="absolute bottom-0 left-0 w-64 h-64 bg-primary/10 blur-[80px] rounded-full point-events-none"></div>
+
+                    <div className="flex flex-col md:flex-row items-center gap-12 p-8 md:p-12 relative z-10">
+                        <div className="flex-1 text-center md:text-left">
+                            <div className="inline-block mb-4 px-3 py-1 rounded-full bg-secondary/20 border border-secondary/40 text-secondary text-sm font-semibold tracking-wide animate-pulse">
+                                COMING SOON
+                            </div>
+                            <h2 className="title-lg font-outfit text-white mb-4">
+                                PackieAI <br />
+                                <span className="text-gradient text-3xl md:text-4xl">Scam Call Protection</span>
+                            </h2>
+                            <p className="text-text-muted text-lg mb-6 max-w-xl">
+                                Protect your phone line with Artificial Intelligence. PackieAI intercepts scammers with intelligent voice personas, wasting their time and protecting you from fraud.
+                            </p>
+
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+                                <div className="flex items-start gap-3 text-left">
+                                    <ShieldCheck className="w-6 h-6 text-primary flex-shrink-0 mt-0.5" />
+                                    <div>
+                                        <h4 className="text-white font-medium">Auto-Intercept</h4>
+                                        <p className="text-sm text-text-muted">Suspicious calls are forwarded seamlessly.</p>
+                                    </div>
+                                </div>
+                                <div className="flex items-start gap-3 text-left">
+                                    <Zap className="w-6 h-6 text-secondary flex-shrink-0 mt-0.5" />
+                                    <div>
+                                        <h4 className="text-white font-medium">Intelligent Personas</h4>
+                                        <p className="text-sm text-text-muted">AI voices keep scammers engaged and away from you.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="mailto:info@pacmacmobile.com" className="btn btn-outline inline-flex items-center gap-2">
+                                Get Early Access <ArrowRight size={18} />
+                            </a>
+                        </div>
+
+                        <div className="flex-1 w-full max-w-sm mx-auto">
+                            <div className="glass p-6 rounded-3xl border border-white/5 shadow-2xl bg-bg-dark/80 backdrop-blur-md">
+                                <div className="text-center mb-6">
+                                    <div className="w-16 h-16 rounded-full bg-secondary/20 flex items-center justify-center mx-auto mb-3">
+                                        <ShieldCheck className="w-8 h-8 text-secondary" />
+                                    </div>
+                                    <h3 className="text-white font-medium text-lg">Call Intercepted</h3>
+                                    <p className="text-sm text-text-muted">PackieAI is handling this call</p>
+                                </div>
+                                <div className="bg-black/40 rounded-xl p-4 border border-white/5 space-y-3">
+                                    <div className="flex justify-between items-center">
+                                        <span className="text-xs text-text-muted">Status</span>
+                                        <span className="text-xs text-green-400 font-medium px-2 py-0.5 bg-green-400/10 rounded">Active</span>
+                                    </div>
+                                    <div className="flex justify-between items-center">
+                                        <span className="text-xs text-text-muted">Duration</span>
+                                        <span className="text-xs text-white font-mono">04:23</span>
+                                    </div>
+                                    <div className="flex justify-between items-center">
+                                        <span className="text-xs text-text-muted">Threat Level</span>
+                                        <span className="text-xs text-red-400 font-medium">High (Scam)</span>
+                                    </div>
+                                </div>
+                                <div className="mt-6 text-center">
+                                    <p className="text-xs text-text-muted mb-2">Try the demo line:</p>
+                                    <a href="tel:+19472254324" className="text-white font-mono font-medium hover:text-secondary transition-colors">
+                                        (947) 225-4324
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* Overview CTA */}
             <section className="container py-24 z-10 relative">
                 <div className="glass-card bg-gradient-to-r from-primary/20 to-secondary/20 border-primary/30 flex flex-col md:flex-row items-center justify-between gap-8 p-10 md:p-16 relative overflow-hidden">

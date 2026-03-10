@@ -33,6 +33,7 @@ const Navbar = () => {
                 <div className="hidden md:flex items-center gap-8">
                     <NavLink to="/" current={location.pathname === '/'}>Home</NavLink>
                     <NavLink to="/plans" current={location.pathname === '/plans'}>Plans</NavLink>
+                    <a href="/#packie-ai" className="font-medium transition-colors text-secondary hover:text-white">PackieAI</a>
                     <Link to="/eligibility" className="btn btn-primary ml-4">
                         Check Eligibility
                     </Link>
@@ -53,6 +54,9 @@ const Navbar = () => {
                     <div className="flex flex-col p-4 gap-4">
                         <MobileNavLink to="/" current={location.pathname === '/'} onClick={closeMenu}>Home</MobileNavLink>
                         <MobileNavLink to="/plans" current={location.pathname === '/plans'} onClick={closeMenu}>Plans</MobileNavLink>
+                        <a href="/#packie-ai" onClick={closeMenu} className="block p-3 rounded-lg transition-colors text-secondary font-medium hover:bg-white/5">
+                            PackieAI Protection
+                        </a>
                         <div className="pt-4 mt-2 border-t border-glass-border">
                             <Link to="/eligibility" className="btn btn-primary w-full text-center" onClick={closeMenu}>
                                 Check Eligibility

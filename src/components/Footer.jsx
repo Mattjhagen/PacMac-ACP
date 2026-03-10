@@ -31,6 +31,7 @@ const Footer = () => {
                     <ul className="flex flex-col gap-2">
                         <li><FooterLink to="/plans">Lifeline Plans</FooterLink></li>
                         <li><FooterLink to="/plans">ACP Programs</FooterLink></li>
+                        <li><a href="/#packie-ai" className="text-secondary hover:text-white text-sm transition-colors">PackieAI (Coming Soon)</a></li>
                         <li><FooterLink to="#">Bring Your Own Phone</FooterLink></li>
                         <li><FooterLink to="#">Coverage Map</FooterLink></li>
                     </ul>
