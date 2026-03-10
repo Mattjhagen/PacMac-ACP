@@ -21,8 +21,8 @@ const Navbar = () => {
         <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'glass py-3' : 'bg-transparent py-5'}`}>
             <div className="container flex items-center justify-between">
                 <Link to="/" className="flex items-center gap-2 group" onClick={closeMenu}>
-                    <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center p-2 group-hover:scale-110 transition-transform">
-                        <Smartphone className="text-white" />
+                    <div className="w-10 h-10 rounded-xl flex items-center justify-center p-0.5 group-hover:scale-110 transition-transform">
+                        <img src="/favicon.png" alt="PacMac Logo" className="w-full h-full object-contain" />
                     </div>
                     <span className="font-outfit font-bold text-2xl tracking-tight text-white block">
                         PacMac<span className="text-secondary">Mobile</span>
